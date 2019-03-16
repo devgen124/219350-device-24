@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс - Каталог товаров</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -65,7 +66,7 @@
     </nav>
     </header>
     <main>
-      <h1>Моноподы для селфи</h1>
+      <h1 class="category-heading">Моноподы для селфи</h1>
       <ul class="breadcrumbs">
         <li><a href="#">Главная</a></li>
         <li><a href="#">Каталог товаров</a></li>
@@ -103,7 +104,7 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset>
+        <fieldset class="filter-set">
           <legend>Bluetooth</legend>
           <ul>
             <li>
@@ -123,23 +124,23 @@
         <h2>Сортировка:</h2>
         <ul class="sorting-type">
           <li>
-            <a href="">По цене</a>
+            <a class="sorting-type-link sorting-type-current" href="">По цене</a>
           </li>
           <li>
-            <a href="">По типу</a>
+            <a class="sorting-type-link"  href="">По типу</a>
           </li>
           <li>
-            <a href="">По популярности</a>
+            <a class="sorting-type-link"  href="">По популярности</a>
           </li>
         </ul>
         <ul class="sorting-direction">
           <li>
-            <a href="">
+            <a class="arrow arrow-current" href="">
               <img src="img/icon-up-dir.svg"  width="11" height="10" alt="Сортировать по убыванию">
               </a>
           </li>
           <li>
-            <a href="">
+            <a class="arrow" href="">
               <img src="img/icon-down-dir.svg" width="11" height="10" alt="Сортировать по возрастанию">
             </a>
           </li>
@@ -170,7 +171,7 @@
           </li>
         </ul>
         <div class="pagination">
-          <span class="pagination-direction">Назад</span>
+          <a class="pagination-direction">Назад</a>
         <ul class="pagination-list">
           <li>
             <a class="pagination-list-item pagination-list-item-current">1</a>
@@ -182,7 +183,7 @@
             <a class="pagination-list-item">3</a>
           </li>
         </ul>
-        <span class="pagination-direction">Вперед</span>
+        <a class="pagination-direction">Вперед</a>
       </div>
       </section>
     </main>
@@ -240,7 +241,7 @@
       </section>
       <p class="footer-copyright">
         <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="HTML Academy">
-            <img src="img/tw.svg" width="27" height="35" alt="Логотип HTML Academy">
+            <img src="img/logo-htmlacademy.svg" width="27" height="35" alt="Логотип HTML Academy">
         </a>
       </p>
     </footer>
