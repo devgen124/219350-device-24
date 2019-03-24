@@ -114,7 +114,8 @@ body {
 
 .search-header-input::before {
   position: absolute;
-
+  top: 0;
+  left: 0;
   width: 16px;
   height: 16px;
 
