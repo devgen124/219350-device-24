@@ -184,6 +184,17 @@ body {
   background-image: url("../img/compare.svg");
 }
 
+.cart a::before {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  width: 12px;
+  height: 12px;
+
+  content: "";
+  background-image: url("../img/cart.svg");
+}
+
 .site-navigation {
   display: flex;
   margin-top: 34px;
